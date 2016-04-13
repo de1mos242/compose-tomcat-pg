@@ -17,7 +17,7 @@ services:
       TOMCAT_DB_HOST: db
       TOMCAT_USER: tomcat-admin
       TOMCAT_PASSWORD: 12345678
-      TOMCAT_JNDI_NAME: jdbc/mainDB
+      TOMCAT_DB_JNDI_NAME: jdbc/mainDB
       TOMCAT_EXTERNAL_FOLDER: /var/external-files/
       TOMCAT_DUMPS_FOLDER: /var/external-files/dumps
     ports:
