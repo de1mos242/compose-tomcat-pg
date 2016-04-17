@@ -37,7 +37,7 @@ services:
       NGINX_PROXY_PASS_LOCATION: dutch-treat/app/api
       NGINX_REWRITE_BASE_HEADER: dutch-treat/app/
     volumes:
-      - /home/denis/Projects/DutchTreat/Client/app:/var/data
+      - /home/denis/Projects/DutchTreat/Client/build:/var/data
     ports:
       - "80:80"
     links:
